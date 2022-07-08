@@ -1,0 +1,138 @@
+﻿---
+Language: Cpp
+AlignAfterOpenBracket: DontAlign
+AlignTrailingComments: "true"
+AllowAllArgumentsOnNextLine: "false"
+AllowAllConstructorInitializersOnNextLine: "true"
+AllowAllParametersOfDeclarationOnNextLine: "false"
+AllowShortBlocksOnASingleLine: "false"
+AllowShortEnumsOnASingleLine: "false"
+AllowShortCaseLabelsOnASingleLine: "false"
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: None
+AllowShortLoopsOnASingleLine: "false"
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: "false"
+AlwaysBreakTemplateDeclarations: "Yes"
+BinPackArguments: "true"
+BinPackParameters: "true"
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterEnum: false
+  AfterStruct: false
+  SplitEmptyFunction: false
+  AfterControlStatement: "Never"
+  AfterFunction: false
+  AfterNamespace: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+BreakBeforeTernaryOperators: "false"
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+ColumnLimit: "170"
+CompactNamespaces: "false"
+ConstructorInitializerAllOnOneLineOrOnePerLine: "true"
+IncludeBlocks: Merge
+IndentCaseLabels: "true"
+IndentPPDirectives: BeforeHash
+IndentWidth: "4"
+IndentWrappedFunctionNames: "false"
+KeepEmptyLinesAtTheStartOfBlocks: "false"
+MaxEmptyLinesToKeep: "1"
+NamespaceIndentation: All
+PointerAlignment: Left
+SortIncludes: "true"
+SortUsingDeclarations: "true"
+SpaceAfterCStyleCast: "false"
+SpaceAfterLogicalNot: "false"
+SpaceAfterTemplateKeyword: "false"
+SpaceBeforeAssignmentOperators: "true"
+SpaceBeforeCpp11BracedList: "false"
+SpaceBeforeCtorInitializerColon: "false"
+SpaceBeforeInheritanceColon: "false"
+SpaceBeforeParens: Never
+SpaceBeforeRangeBasedForLoopColon: "false"
+SpaceInEmptyParentheses: "false"
+SpacesBeforeTrailingComments: "3"
+SpacesInAngles: "false"
+SpacesInCStyleCastParentheses: "false"
+SpacesInContainerLiterals: "false"
+SpacesInParentheses: "false"
+SpacesInSquareBrackets: "false"
+Standard: Auto
+UseTab: Always
+TabWidth: "4"
+---
+Language: ObjC
+AlignAfterOpenBracket: DontAlign
+AlignTrailingComments: "true"
+AllowAllArgumentsOnNextLine: "false"
+AllowAllConstructorInitializersOnNextLine: "true"
+AllowAllParametersOfDeclarationOnNextLine: "false"
+AllowShortBlocksOnASingleLine: "false"
+AllowShortEnumsOnASingleLine: "false"
+AllowShortCaseLabelsOnASingleLine: "false"
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: None
+AllowShortLoopsOnASingleLine: "false"
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: "false"
+AlwaysBreakTemplateDeclarations: "Yes"
+BinPackArguments: "true"
+BinPackParameters: "true"
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterEnum: false
+  AfterStruct: false
+  SplitEmptyFunction: false
+  AfterControlStatement: "Never"
+  AfterFunction: false
+  AfterNamespace: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+BreakBeforeTernaryOperators: "false"
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+ColumnLimit: "170"
+CompactNamespaces: "false"
+ConstructorInitializerAllOnOneLineOrOnePerLine: "true"
+IncludeBlocks: Merge
+IndentCaseLabels: "true"
+IndentPPDirectives: BeforeHash
+IndentWidth: "4"
+IndentWrappedFunctionNames: "false"
+KeepEmptyLinesAtTheStartOfBlocks: "false"
+MaxEmptyLinesToKeep: "1"
+NamespaceIndentation: All
+PointerAlignment: Left
+SortIncludes: "true"
+SortUsingDeclarations: "true"
+SpaceAfterCStyleCast: "false"
+SpaceAfterLogicalNot: "false"
+SpaceAfterTemplateKeyword: "false"
+SpaceBeforeAssignmentOperators: "true"
+SpaceBeforeCpp11BracedList: "false"
+SpaceBeforeCtorInitializerColon: "false"
+SpaceBeforeInheritanceColon: "false"
+SpaceBeforeParens: Never
+SpaceBeforeRangeBasedForLoopColon: "false"
+SpaceInEmptyParentheses: "false"
+SpacesBeforeTrailingComments: "3"
+SpacesInAngles: "false"
+SpacesInCStyleCastParentheses: "false"
+SpacesInContainerLiterals: "false"
+SpacesInParentheses: "false"
+SpacesInSquareBrackets: "false"
+Standard: Auto
+UseTab: Always
+TabWidth: "4"
