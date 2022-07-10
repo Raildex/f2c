@@ -7,6 +7,7 @@
 #include <vector>
 
 namespace rdx::f2c {
+
 	std::vector<unsigned char> read_file_to_byte_array(std::filesystem::path file) {
 		auto byte_count = std::filesystem::file_size(file);
 		std::vector<unsigned char> bytes(byte_count);
@@ -100,10 +101,7 @@ int main(int argc, char** argv) {
 			rdx::f2c::convert_to_header(argv[2], argv[3], argv[4], nullptr, "c", "h");
 		}
 	} else if(argc == 6) {
-		std::cout << "He2?" << std::endl;
-
 		if(!strcmp(argv[1], "-cpp")) {
-			std::cout << "He?" << std::endl;
 			rdx::f2c::convert_to_header(argv[3], argv[4], argv[5], argv[2], "cpp", "hpp");
 		}
 	}
