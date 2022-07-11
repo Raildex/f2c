@@ -72,7 +72,7 @@ namespace rdx::f2c {
 			std::string include_guard = generate_include_guard(out_file.filename().generic_string());
 			header_stream << "#ifndef " << include_guard << "\n";
 			header_stream << "#define " << include_guard << "\n\n";
-			header_stream << "namespace " << name_space << "{ \n";
+			header_stream << "namespace " << name_space << " { \n";
 			header_stream << "\textern const unsigned char " << variable_name << "[" << bytes.size() << "];\n";
 			header_stream << "\textern const unsigned int " << variable_name << "_size; \n";
 			header_stream << "}\n";
