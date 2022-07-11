@@ -40,7 +40,7 @@ namespace rdx::f2c {
 			std::filesystem::path header_file_name = out_file;
 			header_file_name.replace_extension(".h");
 			std::stringstream source_stream;
-			source_stream << "#include " << header_file_name << "\n\n";
+			source_stream << "#include " << header_file_name.filename() << "\n\n";
 			source_stream << "const unsigned char " << variable_name << "[" << bytes.size() << "] = { \n";
 			source_stream << std::hex << std::showbase;
 			int columns = 0;
@@ -82,9 +82,9 @@ namespace rdx::f2c {
 
 		std::string get_source_content() {
 			std::filesystem::path header_file_name = out_file;
-			header_file_name.replace_extension(".h");
+			header_file_name.replace_extension(".hpp");
 			std::stringstream source_stream;
-			source_stream << "#include " << header_file_name << "\n\n";
+			source_stream << "#include " << header_file_name.filename() << "\n\n";
 			source_stream << "namespace " << name_space << "{\n";
 			source_stream << "\tconst unsigned char " << variable_name << "[" << bytes.size() << "] = { \n\t";
 			source_stream << std::hex << std::showbase;
