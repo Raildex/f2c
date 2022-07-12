@@ -47,7 +47,7 @@ namespace rdx::f2c {
 			for(auto it = bytes.begin(); it != bytes.end(); it++) {
 				source_stream << (int)*it;
 				if(it != bytes.end() - 1) {
-					source_stream << ", ";
+					source_stream << ",\t";
 				}
 				columns++;
 				if(columns >= 8) {
