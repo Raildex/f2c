@@ -6,7 +6,7 @@ namespace rdx::f2c {
 	std::vector<unsigned char> read_file_to_byte_array(std::filesystem::path file) {
 		auto byte_count = std::filesystem::file_size(file);
 		std::vector<unsigned char> bytes(byte_count);
-		auto ifs = std::ifstream(file);
+		auto ifs = std::ifstream(file,std::ios_base::in | std::ios_base::binary);
 		ifs.read((char*)bytes.data(), byte_count);
 		return bytes;
 	}
