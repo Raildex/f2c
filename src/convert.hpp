@@ -45,7 +45,11 @@ namespace rdx::f2c {
 			source_stream << std::hex << std::showbase;
 			int columns = 0;
 			for(auto it = bytes.begin(); it != bytes.end(); it++) {
-				source_stream << (int)*it;
+				if(*it != 0) {
+					source_stream << (int)*it;
+				} else {
+					source_stream << "0x0";
+				}
 				if(it != bytes.end() - 1) {
 					source_stream << ",\t";
 				}
@@ -90,7 +94,12 @@ namespace rdx::f2c {
 			source_stream << std::hex << std::showbase;
 			int columns = 0;
 			for(auto it = bytes.begin(); it != bytes.end(); it++) {
-				source_stream << (int)*it;
+				if(*it != 0) {
+					source_stream << (int)*it;
+				}else {
+					source_stream << "0x0";
+				}
+
 				if(it != bytes.end() - 1) {
 					source_stream << ", ";
 				}
