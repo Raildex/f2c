@@ -4,13 +4,13 @@ A program that converts an arbitrary file into a byte array for inclusion in C o
 
 ## Usage
 ```
-f2c -c [input-file] [variable-name] [output-file]
-f2c -cpp [namespace-name] [input-file] [variable-name] [output-file]
+f2c -c [path/to/file] [variable_name] [path/to/out_file]
+f2c -cpp [path/to/file] [variable_name] [path/to/out_file] [namespace]
 ```
 
 ## Example
 ```
-f2c -cpp raildex some_file.txt raw output_file.txt
+f2c -cpp raildex some_file.txt raw output_file.txt raildex
 ```
 will generate the following header file named `output_file.hpp`:
 ```cpp
